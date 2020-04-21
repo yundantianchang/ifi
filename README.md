@@ -27,6 +27,7 @@ These two rules would have to be added manually if applied on a different machin
 - pypacker
 - psutil
 - pyyaml
+- netifaces
 - iptables, NFQUEUE target support in kernel for packet intercepting, CPython
 
 ### Installation
