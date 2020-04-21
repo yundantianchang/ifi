@@ -197,7 +197,7 @@ Answer: """ % (
 	}
 
 	@staticmethod
-	def verdict_cb(data, ll_proto_id, ctx):
+	def verdict_cb(ll_data, ll_proto_id, data, ctx):
 		ipl = Firewall.LL_PROTO_CB[ll_proto_id](data)
 		# logger.debug("verdict_cb, packet: %r", ipl)
 		decision_accept = False
